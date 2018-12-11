@@ -500,7 +500,7 @@ int main()
 			case '8':
 				system("cls");
 				Menu();
-				cout << endl << "Введите ещё одну дату, для подсчёта дней между ней и текущей датой" << endl;
+				cout << endl << "Введите вторую дату" << endl;
 				CreateDate(Day, Month, Year);
 				cout << endl << "Разница между датами:" << endl;
 				Difference(day, month, year, Day, Month, Year);
