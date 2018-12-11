@@ -422,7 +422,7 @@ int main()
 	char simbol;
 	while (mmm)
 	{
-		cout << "Средства для работы с датами" << endl << endl << "Введите дату" << endl;
+		cout << "Средства для работы с датами" << endl << endl << "Введите дату:" << endl;
 		cout << "1. Создать дату" << endl << "0. Выйти" << endl;
 		cin >> simbol;
 		system("cls");
