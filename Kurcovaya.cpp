@@ -9,17 +9,17 @@ char* NewDate() //Cоздаём указатель на 128 символов, з
 {
 	char* DateNew = new char[128];
 	cin >> DateNew;
-	cout << "Создание даты" << endl;
+	cout << "Создание даты" << endl;//Создание даты
 	return DateNew;
 }
 
-void CreateDate(int &day, int &month, int &year) { // Проверяем дату
+void CreateDate(int &day, int &month, int &year) { // Проверка даты
 	bool Trust = true;
 	while (Trust)
 	{
 		char*  DateCr = NewDate();// Записываем указатель возвращаемый в функции в этот указатель, при его инициализации
 		int Length = strlen(DateCr);
-		cout << "Проверка даты" << endl << DateCr << endl;
+		cout << "Проверка даты" << endl << DateCr << endl;//Проверка даты
 		if ((Length == 10) || (Length == 8))// Проверяем на количество символов(либо 10, либо 8 символов)
 		{
 			bool Conform = true;// Проверяем введенные символы
